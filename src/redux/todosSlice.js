@@ -14,4 +14,4 @@ export const todosSlice = createSlice({
 
 export const { add, remove } = todosSlice.actions;
 
-export default counterSlice.reducer;
+export default todosSlice.reducer;
